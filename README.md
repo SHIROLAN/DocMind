@@ -1,6 +1,6 @@
 # DocMind
-AI document Q&amp;A - Upload Documents, Start Asking Questions, Get Cited Answer.
-
+ AI-powered Retrieval-Augmented Generation (RAG) system for document question answering using Gemini Embeddings, FAISS, and Streamlit.
+ 
 # DocMind
 
 A RAG application built using:
