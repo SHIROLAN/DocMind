@@ -4,6 +4,8 @@ langchain-community
 langchain-google-genai
 langchain-groq
 langchain-text-splitters
+langchain-huggingface
+
 sentence-transformers
 google-generativeai
 faiss-cpu
