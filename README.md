@@ -107,11 +107,6 @@ DocMind/
 ├── data/
 │   └── sample.pdf
 │
-├── screenshots/
-│   ├── upload.png
-│   ├── answer.png
-│   └── citations.png
-│
 └── README.md
 ```
 
@@ -309,24 +304,3 @@ Answer + Citations
 Add your deployed Streamlit URL here:
 
  < https://docmind-z8slyvhplls9z4zzc3hutu.streamlit.app/>
-
----
-
-## Author
-
-K
-
-Aspiring AI Engineer focused on:
-
-* Retrieval-Augmented Generation (RAG)
-* AI Agents
-* LLM Applications
-* Generative AI Engineering
-* Full Stack AI Systems
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
