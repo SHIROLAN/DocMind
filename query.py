@@ -49,6 +49,23 @@ Question:
 
 response = llm.invoke(prompt)
 
+print("\nSources:\n")
+
+seen = set()
+
+for doc in dcos:
+    source = doc.metadata.get("source", "Unknown")
+    page = doc.metadata.get("page", 0)
+
+    key = (source, page)
+
+    if key not in seen:
+        seen.add(key)
+
+        print(
+            f"📄 {os.path.basename(source)} | Page {page + 1}"
+        )
+
 print("\nAnswer:\n")
 print(response.content)
 
