@@ -1,19 +1,26 @@
 # DocMind
-AI document Q&amp;A - Upload Documents, Start Asking Questions, Get Cited Answer.
+ AI-powered Retrieval-Augmented Generation (RAG) system for document question answering using Gemini Embeddings, FAISS, and Streamlit.
 
-# DocMind
+## Features
 
-A RAG application built using:
+- Multi-PDF Upload
+- Semantic Search
+- Source Citations
+- Chat History
+- Gemini Embeddings
+- Groq LLM
+- FAISS Vector Store
+- Streamlit UI
+
+## Tech Stack
 
 - Python
 - LangChain
+- Groq
 - Gemini Embeddings
 - FAISS
 - Streamlit
 
-## Features
+## Live Demo
 
-- PDF ingestion
-- Semantic search
-- Vector database retrieval
-- Streamlit UI
+< https://docmind-z8slyvhplls9z4zzc3hutu.streamlit.app/>
