@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-
+from langchain_groq import ChatGroq
 from langchain_google_genai import (
     GoogleGenerativeAIEmbeddings,
     ChatGoogleGenerativeAI,
@@ -31,9 +31,10 @@ for i, doc in enumerate(dcos, start=1):
     
 context = "\n\n".join([doc.page_content for doc in dcos])
 
-llm=ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
     temperature=0,
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 prompt = f"""
